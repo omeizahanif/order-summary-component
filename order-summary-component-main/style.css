@@ -1,0 +1,25 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hsl(225, 100%, 94%);
+    --secondary-color: hsl(245, 75%, 52%);
+    --light-color: hsl(225, 100%, 98%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-color: var(--primary-color);
+}
