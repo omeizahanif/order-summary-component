@@ -87,3 +87,38 @@ box-shadow: 0px 25px 4px 0px rgba(31,47,86,0.16);
 .order-price :nth-child(1) {
     font-weight: 900;
 }
+
+.cta,
+.cancel {
+    display: block;
+    text-align: center;
+    margin: 1.8em auto;
+    text-decoration: none;
+}
+
+.cta {
+    padding: 1rem 0;
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 20px 15px 0px rgba(224,232,255,1);
+    -moz-box-shadow: 0px 20px 15px 0px rgba(224,232,255,1);
+    box-shadow: 0px 20px 15px 0px rgba(224,232,255,1);
+}
+
+.cta:hover {
+    background-color: hsl(224, 23%, 55%);
+    -webkit-box-shadow: 0px 13px 15px 0px rgba(224,232,255,1);
+    -moz-box-shadow: 0px 13px 15px 0px rgba(224,232,255,1);
+    box-shadow: 0px 13px 15px 0px rgba(224,232,255,1);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
