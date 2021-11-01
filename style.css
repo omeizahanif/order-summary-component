@@ -30,7 +30,7 @@ body {
     margin-top: 4rem;
     margin-bottom: 4rem;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     -webkit-box-shadow: 0px 25px 4px 0px rgba(31,47,86,0.16);
 -moz-box-shadow: 0px 25px 4px 0px rgba(31,47,86,0.16);
 box-shadow: 0px 25px 4px 0px rgba(31,47,86,0.16);
@@ -38,8 +38,8 @@ box-shadow: 0px 25px 4px 0px rgba(31,47,86,0.16);
 
 .order-image {
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .order-info {
@@ -108,10 +108,11 @@ box-shadow: 0px 25px 4px 0px rgba(31,47,86,0.16);
 }
 
 .cta:hover {
-    background-color: hsl(224, 23%, 55%);
+    background-color: hsl(224, 44%, 52%);
     -webkit-box-shadow: 0px 13px 15px 0px rgba(224,232,255,1);
     -moz-box-shadow: 0px 13px 15px 0px rgba(224,232,255,1);
     box-shadow: 0px 13px 15px 0px rgba(224,232,255,1);
+    transform: translateY(-0.25em);
 }
 
 .cancel {
